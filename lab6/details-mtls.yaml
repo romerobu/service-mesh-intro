@@ -20,7 +20,7 @@ spec:
   host: details
   trafficPolicy:
     tls:
-      mode: ISTIO_MUTUAL
+      mode: DISABLE
   subsets:
     - labels:
         version: v1
